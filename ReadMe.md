@@ -5,7 +5,7 @@ This example is to demonstrate Websocket functionality. This tutorial utilizes c
 
  1. Clone the sample to local machine 
   
-    git clone https://github.com/sethanga_microsoft/Websocket.git
+    git clone https://github.com/sethanga/WebsocketIo.git
 
  2. Go to cloned folder and open the folder in vscode
     
@@ -17,14 +17,15 @@ This example is to demonstrate Websocket functionality. This tutorial utilizes c
 
     npm start  // Which execute node server.js and start the websocket server
 
-websocket server will now be started and will listening in port 9846
+websocket server will now be started and will listening in port 3000
 
-![Alt text](image.png)
+ ![Alt text](image.png)
 
-4. Start the Client Application
-Client application can be run directly on your browser. To start the client application ,navigate to folder <yourfolderpath>/websocket/client and then open index.html on browser.
+4. Start the Client Application to use chat applciation which consume websocket apis
+    
+     http://localhost:3000/chat
 
-5. Start the server in Debug mode
+5. Start the server and client in Debug mode
 Samples comes with .vscode folder which has node launch configuration which enables you start the debugging mode from vscode. 
 
     
