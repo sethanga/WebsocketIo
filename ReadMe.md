@@ -16,9 +16,9 @@ This example is to demonstrate Websocket functionality. This tutorial utilizes c
 
     
  ```Console
-      npm install   //install all node modules locally
+      npm install   
 
-      npm start  // Which execute node server.js and start the websocket server
+      npm start   
  ```
 
 websocket server will now be started and will listening in port 3000
